@@ -24,5 +24,7 @@ vlan 300 virtual ip is 192.168.0.2
 vlan 400 virtual ip is 192.168.1.2
 Sales network is 192.168.0.0 /25
 Marketing network 192.168.1.0 /25
+The ip helper-address or dhcp server address is 198.148.239.6
 vlan 10 is management for the WLC
 
+Im in the process of setting up a wireless lan controller and a access point for wireless connection, as well as a another simple network beyond the edge router to setup bgp.
