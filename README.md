@@ -19,4 +19,10 @@ I plan on implementing NAT and ACls in the distribution layer later since the AS
 Im trying to configure a ntp server in the core layer but, besides that the core layer focuses on just routing.
 
 Network B
-The B network is essentially a mirror of network A. The native vlan is once again 199 
+The B network is essentially a mirror of network A. The native vlan is once again 199, vlan 300 and 400 is sales and marketing respectfully.
+vlan 300 virtual ip is 192.168.0.2
+vlan 400 virtual ip is 192.168.1.2
+Sales network is 192.168.0.0 /25
+Marketing network 192.168.1.0 /25
+vlan 10 is management for the WLC
+
