@@ -17,3 +17,6 @@ The uplink from the distribution layer to the core layer ueses layer 3 etherchan
 
 I plan on implementing NAT and ACls in the distribution layer later since the ASA firewall in packect tracer doesnt support them. 
 Im trying to configure a ntp server in the core layer but, besides that the core layer focuses on just routing.
+
+Network B
+The B network is essentially a mirror of network A. The native vlan is once again 199 
